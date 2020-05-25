@@ -1,0 +1,124 @@
+body {
+    background-color: lightgrey;
+    font-size: 15px;
+    font-family: monospace;
+}
+
+.basePath {
+    stroke: lavenderBlush;
+}
+
+.selectedPath {
+    stroke: lightblue;
+    stroke-width: 3px;
+}
+
+.survivalPath {
+    stroke: blue;
+    stroke-width: 3px;
+
+}
+
+.nonePath {
+    stroke: yellow;
+}
+
+
+.hiddenPath {
+    display: none;
+}
+
+.infoBit {
+    color: black;
+    fill: black;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+.flippedInfoBit {
+    color: red;
+    fill: red;
+
+    font-size: 30px;
+    font-family: monospace;
+
+}
+
+.fillBit {
+    color: darkgrey;
+    fill: darkgrey;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.flippedFillBit {
+    color: rgb(161, 84, 84);
+    fill: rgb(161, 84, 84);
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#controlPanel {
+    position: fixed;
+    float: left;
+    padding: 10px;
+    width: 430px;
+    height: 30px;
+    background: grey;
+    bottom: 0px;
+    right: 50%;
+    left: 25%;
+    overflow: hidden;
+    border-radius: 2px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #controlPanel {
+        left: 0%;
+
+    }
+
+}
+
+#pauseDiv {
+    float: left;
+    margin-right: 10px;
+    /*height: 40px;
+    width: 40px;*/
+}
+
+#resumeDiv {
+    float: left;
+    margin-right: 5px;
+
+    /*height: 40px;*/
+}
+
+#restartDiv {
+    float: left;
+    margin-right: 5px;
+
+    /*height: 40px;*/
+}
+
+#speedControlDiv {
+    float: left;
+    margin-right: 5px;
+
+    height: 40px;
+}
+#showButtonDiv {
+    float: left;
+}
+
+.bitContainer {
+    min-height: 20px;
+}
+
+.centered {
+}
+.controlPanelItem {
+    float: left;
+}
